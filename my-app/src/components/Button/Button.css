@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+}
+
+.form {
+    display: flex;
+    flex-flow: column;
+}
+
+label{
+    width: 15vw;
+    display: inline-block;
+}
+
+.menu {
+    margin-bottom: 25px;
+}
+
+.but {
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.but:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.counter-container{
+    width: 20vw;
+    height: 20vw;
+    border: 2px solid red;
+    border-radius: 1000px;
+    margin: 20px;
+    display: flex;
+}
+.counter-container__item{
+    margin: auto;
+}

@@ -1,0 +1,44 @@
+.input {
+    display: flex;
+    margin: auto;
+    
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.but{
+    display: flex;
+    margin: auto;
+
+    border-radius: 50px;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+
+    color: ivory;
+    
+}
+
+  
+.mainContainer{
+    display: flex;
+    justify-content: center;
+
+    margin: auto;
+    width: 500px;
+    height: 500px;
+
+    background-color: black;
+  
+}
+
+
+.container{
+    margin: auto;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    background-color:gray;
+
+}
